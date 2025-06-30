@@ -1,0 +1,46 @@
+#HAPUS SEMUA TEXT INI
+#GANTI DENGAN AKUN VPN YANG TELAH DI SEDIAKAN
+#HAPUS SEMUA TEXT INI
+#GANTI DENGAN AKUN VPN YANG TELAH DI SEDIAKAN
+
+proxies:
+- name: PENDIDIKAN 1
+  server: 104.20.75.141
+  port: 443
+  type: trojan
+  password: 0eb7e029-8aa7-469b-a582-1d345f87d838
+  network: ws
+  sni: Neto.rmbl.us.kg
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: Neto.rmbl.us.kg
+- name: BIZNET 2
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 36d86941-b5b9-4d0b-bfc6-104d96c9cccc
+  network: ws
+  sni: Neto.rmbl.us.kg
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: Neto.rmbl.us.kg
+- name: BIZNET
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 36d86941-b5b9-4d0b-bfc6-104d96c9cccc
+  network: ws
+  sni: Neto.rmbl.us.kg
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: Neto.rmbl.us.kg
+
